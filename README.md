@@ -1043,65 +1043,6 @@ muse-pilot/
 └── README.md
 ```
 
----
-
-## Getting Started
-
-### Prerequisites
-
-Install the following before running the project:
-
-- Node.js 20+
-- npm, pnpm, or bun
-- Supabase account
-- OpenAI API key
-- Anthropic API key, optional but recommended
-
-For research experiments:
-
-- Python 3.11+
-- PyTorch
-- librosa
-- scipy
-- torchaudio
-
----
-
-## Installation
-
-Clone the repository:
-
-```bash
-git clone https://github.com/your-username/muse-pilot.git
-cd muse-pilot
-```
-
-Install dependencies:
-
-```bash
-npm install
-```
-
-Create an environment file:
-
-```bash
-cp .env.example .env.local
-```
-
-Run the development server:
-
-```bash
-npm run dev
-```
-
-Open the app:
-
-```text
-http://localhost:3000
-```
-
----
-
 ## Environment Variables
 
 Create a `.env.local` file in the project root.
